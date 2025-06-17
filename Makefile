@@ -7,3 +7,5 @@ ${TARGET}.o: ${TARGET}.c
 
 clean:
 	rm -f *.o ${TARGET}
+run: clean ${TARGET}
+	./${TARGET}
